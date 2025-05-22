@@ -15,7 +15,7 @@ ZVV-MCP ist eine Anwendung, die Spice.ai mit Daten von opendata.swiss kombiniert
   - `pages/`: Next.js-Seiten und API-Routes
   - `styles/`: Globale CSS-Stile
 - `public/`: Statische Dateien
-- `docs/`: Dokumentation
+- `docs/`: (geplant) Dokumentation
 - `zvv-data/`: Spice.ai Konfiguration und Daten
 
 ## Technische Architektur
@@ -80,7 +80,7 @@ Die Anwendung besteht aus drei Hauptkomponenten:
 ### Voraussetzungen
 - Node.js (>= 14.x)
 - npm oder yarn
-- Spice.ai CLI (siehe docs/installation.md)
+- Spice.ai CLI (siehe offizielle Dokumentation)
 - Docker (optional, für Containerisierung)
 
 ### Setup
@@ -88,7 +88,7 @@ Die Anwendung besteht aus drei Hauptkomponenten:
 # Projektabhängigkeiten installieren
 npm install
 
-# Spice.ai installieren (siehe docs/installation.md für Details)
+# Spice.ai installieren (siehe offizielle Dokumentation für Details)
 curl -fsSL https://raw.githubusercontent.com/spiceai/spiceai/trunk/install/install.sh | bash
 
 # Spice.ai Projekt initialisieren
@@ -143,11 +143,7 @@ npm start
 ```
 
 ## Dokumentation
-- [Installation von Spice.ai](docs/installation.md)
-- [Datenmodell](docs/data-model.md)
-- [Projektplan](docs/plan.md)
-- [LLM-Integration](docs/llm-integration.md)
-- [API-Dokumentation](docs/api/openapi.yaml) - OpenAPI/Swagger Spezifikation
+Die ausführliche Dokumentation wird derzeit vorbereitet.
 
 ## Technologie-Stack
 - **Frontend**: Next.js, React, TypeScript, Tailwind CSS
